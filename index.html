@@ -1,70 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Proyect</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="hero">
+        <header class="header">
+            <div>Header Logo</div>
 
-    <header>
-        <div>Header Logo</div>
+            <ul class="header-links">
+                <li><a href="pages.cl">header link one</a></li>
+                <li><a href="pages.cl">header link two</a></li>
+                <li><a href="pages.cl">header link three</a></li>
+            </ul>
+        </header>
 
-        <ul class="header-links">
-            <li><a class="link-uno" href="pages.cl">header link one</a></li>
-            <li><a class="link-two" href="pages.cl">header link two</a></li>
-            <li><a class="links-three" href="pages.cl">header link three</a></li>
-        </ul>
-    </header>
-    
-    <section class="seccion-uno">
-        <div>
-            <h1>This website is awesome</h1>
-            <p>Escogí esta imagen porque la encontre muy bonita, el mensaje en neon hace un muy buen contraste con el fondo negro</p>
-            <button class="boton uno">Sing up</button>
-        </div>
+        <section class="seccion-uno">
+            <div class="main-title">
+                <h1>This website is awesome</h1>
+                <p class="secondary-text">Escogí esta imagen porque la encontre muy bonita, el mensaje en neon hace un muy buen contraste con
+                    el fondo negro</p>
+                <button>Sing up</button>
+            </div>
 
-        <img src="img/enjoy-today.jpg" alt="Imagen de neon con la frase Enjoy Today" width="100px">
-    </section>
+            <img src="img/enjoy-today.jpg" alt="Imagen de neon con la frase Enjoy Today" width="600px">
+        </section>
+    </div>
 
     <section class="seccion-dos">
         <div class="titulo">Mis cosas favoritas en el mundo</div>
 
         <div class="contenedor">
-            <div class="img-info">
-                <img src="img/familia.jpg" alt="imagen de dos mujeres enamoradas" height="50px">
+            <div class="info">
+                <img class="casilla" src="img/familia.jpg" alt="imagen de dos mujeres enamoradas" height="300px">
                 <div class="texto">Disfrutar en familia con mi esposa</div>
             </div>
 
-            <div class="img-info">
-                <img src="img/gato.jpg" alt="imagen de un gato sobre un sofá" height="50px">
+            <div class="info">
+                <img class="casilla" src="img/gato.jpg" alt="imagen de un gato sobre un sofá" height="300px">
                 <div class="texto">Mis bebes de cuatro patas, sobretodo Mia y Emma</div>
             </div>
 
-            <div class="img-info">
-                <img src="img/lluvia.jpg" alt="imagen de un día lluvioso" height="50px">
+            <div class="info">
+                <img class="casilla" src="img/lluvia.jpg" alt="imagen de un día lluvioso" height="300px">
                 <div class="texto">Amo los día de invierno y sobretodo la lluvia, todo es más claro y limpio</div>
             </div>
 
-            <div class="img-info">
-                <img src="img/videojuegos.jpg" alt="imagen palancas de videojuegos" height="50px">
-                <div class="texto">Jugar videojuegos es lo mejor para mi, la tranquilidad y la posibilidad de vivir diferentes experiencias</div>
-            </div>            
+            <div class="info">
+                <img class="casilla" src="img/videojuegos.jpg" alt="imagen palancas de videojuegos" height="300px">
+                <div class="texto">Jugar videojuegos es lo mejor para mi, la tranquilidad y la posibilidad de vivir
+                    diferentes experiencias</div>
+            </div>
         </div>
     </section>
 
-    <section class="seccion tres">
+    <section class="seccion-tres">
         <p class="frase">"Siempre estoy haciendo lo que no puedo hacer, para poder aprender cómo hacerlo."</p>
         <p class="autor">-Pablo Picasso, Artista</p>
     </section>
 
-    <section class="seccion cuatro">
+    <section class="seccion-cuatro">
         <div class="card">
             <div class="action">
-                <p class="titulo-seccion">Selecciona para saber más! Hazlo!</p>
-                <p class="subtexto">Puedes saber más de mi si aprietas este botón.</p>
+                <p class="encabezado">Selecciona para saber más! Hazlo!</p>
+                <p class="secondary-text">Puedes saber más de mi si aprietas este botón.</p>
             </div>
-            
+
             <button class="ultimo-boton">Aprieta aquí</button>
         </div>
     </section>
@@ -74,4 +80,5 @@
     </div>
 
 </body>
+
 </html>
