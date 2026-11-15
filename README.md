@@ -1,7 +1,5 @@
-# proyect-landingpage
+# proyect-landing-page
 Primer proyecto desde cero en TOP.
-
-Primero trabajaré en la estructura HTLM separando por secciones y luego ire con CSS para dar diseño a la página
 
 
 ## Credits
@@ -9,7 +7,7 @@ Primero trabajaré en la estructura HTLM separando por secciones y luego ire con
 - Imagen "Enjoy today": [Renda Eko Riyadi](https://www.pexels.com/es-es/@renkoadi/)
   via [Pexels](https://www.pexels.com/es-es/foto/luces-firmar-neon-texto-1537875/).
 
-- Imagen de gato en el sofá: [GODMODE INTRUST](https://www.pexels.com/es-es/@highervibration/) via [Pexels](https://www.pexels.com/es-es/foto/animal-mascota-gato-sofa-6831962/).
+- Imagen de gato: [Emrullah Buyukkartal](https://www.pexels.com/es-es/@emrullah-buyukkartal-2152595715/) via [Pexels](https://www.pexels.com/es-es/foto/gato-calico-parado-en-el-pavimento-al-aire-libre-34929408/).
 
 - Imagen lluvia: [Sardwim](https://www.pexels.com/es-es/@sardwim/) via [Pexels](https://www.pexels.com/es-es/foto/blanco-y-negro-persona-en-pie-de-pie-5432335/).
 

@@ -1,5 +1,5 @@
-* {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    font-family: 'Roboto',sans-serif;
     margin: 0;
     
 }
@@ -10,11 +10,24 @@
     color: #F9FAF8;    
 }
 
-.header {
+.logo {
+    font-weight: bold;
+}
+
+.header,
+.seccion-hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 15px;        
+    padding: 10px 150px;
+          
+}
+
+.seccion-hero {
+    flex-direction: row;
+    gap: 300px;  
+    padding: 150px;
+    
 }
 
 .main-title {
@@ -47,13 +60,6 @@ a {
     color: #E5E7EB;
 }
 
-.seccion-uno {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 100px;
-    gap: 100px;    
-}
 
 .seccion-dos {
     text-align: center;
@@ -69,8 +75,6 @@ a {
 .contenedor {
     display: flex;
     justify-content: center;
-    gap: 50px;
-   
 }
 
 .info {
@@ -101,20 +105,24 @@ a {
 
 .seccion-cuatro {
     padding: 150px;
+    justify-items: center;
 }
 
 .card {
     background-color: #3882F6;
+    width: 1000px;
     display: flex;
     color: white;
-    justify-content: space-around;
-    padding: 50px; 
-    border-radius: 20px;
-      
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px; 
+    border-radius: 20px;    
 }
 
 .ultimo-boton {
-    border: 2px solid white;     
+    border:2px solid #E5E7EB;
+    width: 100px;
+    height: 40px;    
 }
 
 .encabezado {
